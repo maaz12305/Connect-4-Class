@@ -8,12 +8,6 @@ public class Board {
 	private char player2;
 	private int xCounter;
 	private int oCounter;
-	// Add whatever private fields you need here.
-	// Remember, only variables of type int, char, boolean, and 1D and 2D arrays
-	// of these types are allowed.
-	//
-	// As always, you may also add private helper methods to the class.  That will
-	// likely be very useful on this assignment.
 
 	/**
 	 * Constructs a new empty connect 4 game board with player X being the first player
@@ -24,8 +18,6 @@ public class Board {
 		player1 = 'X';
 		player2 = 'O';
 		count = 0;
-		
-		//throw new RuntimeException("Not implemented");
 	}
 
 	/**
@@ -37,7 +29,6 @@ public class Board {
 		if (count%2 == 0)
 			return player1;
 		return player2;
-		//throw new RuntimeException("Not implemented");
 	}
 
 	/**
